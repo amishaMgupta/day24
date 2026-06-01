@@ -1,7 +1,7 @@
 const express = require('express');
 const port = 3000;
 // Database connection
-require('./dbConnection/db');
+require('../dbConnection/db');
 const userRouter = require('./router/User');
 
 const app = express();
